@@ -10,7 +10,7 @@ class Detention
     @students = students
   end
   
-  def add_student
-    "Rebecca"
+  def add_student(name)
+   students.push(name)
   end
 end 
